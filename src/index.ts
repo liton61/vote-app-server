@@ -20,7 +20,7 @@ const app: Application = express();
 app.use(cookieParser());
 app.use(
   cors({
-    origin: env.CORS_ORIGIN as string,
+    origin: 'https://vote-app-client-m517.vercel.app',
     credentials: true,
   }),
 );
